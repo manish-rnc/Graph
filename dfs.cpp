@@ -79,8 +79,7 @@ int main()
     dfsOfGraph(v, adj);
 
     int count = noOfConnectedComponents(v, adj);
-    cout << endl
-         << "No of connected components : " << count << endl;
+    cout << endl << "No of connected components : " << count << endl;
 
     return 0;
 }
